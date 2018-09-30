@@ -12,4 +12,10 @@
     <string name="btn_account_fragment_next">Next</string>
     <string name="tv_selected_account_name_is">Selected account name is:</string>
 
+    <string name="main_fragment_label">Main</string>
+    <string name="account_selector_fragment_label">Account selector</string>
+    <string name="account_detail_fragment_label">Account detail</string>
+    <string name="settings_fragment_label">Settings</string>
+
+
 </resources>

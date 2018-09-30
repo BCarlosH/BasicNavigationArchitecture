@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/mainFragment"
         android:name="com.example.carlos.basicnavigationarchitecture.MainFragment"
-        android:label="fragment_main"
+        android:label="@string/main_fragment_label"
         tools:layout="@layout/fragment_main">
         <action
             android:id="@+id/action_mainFragment_to_accountSelectorFragment"
@@ -21,7 +21,7 @@
     <fragment
         android:id="@+id/accountSelectorFragment"
         android:name="com.example.carlos.basicnavigationarchitecture.AccountSelectorFragment"
-        android:label="fragment_account"
+        android:label="@string/account_selector_fragment_label"
         tools:layout="@layout/fragment_account">
         <action
             android:id="@+id/action_accountSelectorFragment_to_accountDetails"
@@ -31,13 +31,13 @@
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.example.carlos.basicnavigationarchitecture.SettingsFragment"
-        android:label="fragment_settings"
+        android:label="@string/settings_fragment_label"
         tools:layout="@layout/fragment_settings" />
 
     <fragment
         android:id="@+id/accountDetails"
         android:name="com.example.carlos.basicnavigationarchitecture.AccountDetails"
-        android:label="fragment_account_details"
+        android:label="@string/account_detail_fragment_label"
         tools:layout="@layout/fragment_account_details">
         <argument
             android:name="accountNameArg"
