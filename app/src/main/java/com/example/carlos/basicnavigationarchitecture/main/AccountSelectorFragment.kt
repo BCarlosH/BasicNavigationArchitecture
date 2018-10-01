@@ -1,4 +1,4 @@
-package com.example.carlos.basicnavigationarchitecture
+package com.example.carlos.basicnavigationarchitecture.main
 
 
 import android.os.Bundle
@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.findNavController
+import com.example.carlos.basicnavigationarchitecture.R
 import kotlinx.android.synthetic.main.fragment_account.*
 
 private const val ARG_ACCOUNT_NAME = "accountNameArg"

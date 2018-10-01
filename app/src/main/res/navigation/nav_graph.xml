@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.carlos.basicnavigationarchitecture.MainFragment"
+        android:name="com.example.carlos.basicnavigationarchitecture.main.MainFragment"
         android:label="@string/main_fragment_label"
         tools:layout="@layout/fragment_main">
         <action
@@ -20,7 +20,7 @@
 
     <fragment
         android:id="@+id/accountSelectorFragment"
-        android:name="com.example.carlos.basicnavigationarchitecture.AccountSelectorFragment"
+        android:name="com.example.carlos.basicnavigationarchitecture.main.AccountSelectorFragment"
         android:label="@string/account_selector_fragment_label"
         tools:layout="@layout/fragment_account">
         <action
@@ -30,13 +30,13 @@
 
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.example.carlos.basicnavigationarchitecture.SettingsFragment"
+        android:name="com.example.carlos.basicnavigationarchitecture.settings.SettingsFragment"
         android:label="@string/settings_fragment_label"
         tools:layout="@layout/fragment_settings" />
 
     <fragment
         android:id="@+id/accountDetails"
-        android:name="com.example.carlos.basicnavigationarchitecture.AccountDetails"
+        android:name="com.example.carlos.basicnavigationarchitecture.main.AccountDetails"
         android:label="@string/account_detail_fragment_label"
         tools:layout="@layout/fragment_account_details">
         <argument

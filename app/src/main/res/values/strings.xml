@@ -8,9 +8,12 @@
     <string name="this_settings_fragment">Settings Fragment</string>
     <string name="btn_go_to_account">GO TO ACCOUNT</string>
     <string name="btn_go_to_settings">GO TO SETTINGS</string>
+    <string name="btn_go_to_home">GO TO HOME</string>
     <string name="et_account_fragment_hint">Type your account</string>
     <string name="btn_account_fragment_next">Next</string>
     <string name="tv_selected_account_name_is">Selected account name is:</string>
+    <string name="tv_selected_account_info">When pressing the GO TO HOME button or system
+        onBack, it navigates to home screen</string>
 
     <string name="main_fragment_label">Main</string>
     <string name="account_selector_fragment_label">Account selector</string>

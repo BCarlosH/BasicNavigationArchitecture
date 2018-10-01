@@ -1,4 +1,4 @@
-package com.example.carlos.basicnavigationarchitecture
+package com.example.carlos.basicnavigationarchitecture.main
 
 
 import android.os.Bundle
@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
 import androidx.navigation.findNavController
+import com.example.carlos.basicnavigationarchitecture.R
 import kotlinx.android.synthetic.main.fragment_main.*
 
 
